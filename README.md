@@ -69,17 +69,6 @@ Campos principales del dataset:
 - `Cabin`: cabina asignada.
 - `Embarked`: puerto de embarque.
 
-## Cumplimiento de la rúbrica
-
-| Criterio | Cumplimiento |
-|---|---|
-| Diseño del esquema de datos | Se incluyó StructType, DDL Spark SQL, tipos de datos, nulabilidad y diccionario de datos. |
-| Configuración y despliegue en Databricks CE | Se evidenció versión de Python, sistema operativo, versión de Spark, catálogo, esquema y entorno serverless. |
-| Obtención e ingestión de datos | Se cargó el dataset, se convirtió a DataFrame de Spark y se guardó como tabla Delta. |
-| Validaciones con Spark y SQL | Se realizaron validaciones de esquema, conteos, descripción estadística, consultas SELECT, GROUP BY y filtros. |
-| Comparación SQL vs Spark | Se incluyó comparación práctica con ventajas, limitaciones y escenarios recomendados. |
-| Entrega en GitHub | El notebook exportado desde Databricks se publica en este repositorio. |
-| Video de sustentación | Debe explicar el paso a paso de configuración, ingesta, tabla, validaciones y comparación SQL vs Spark. |
 
 ## Resultado esperado
 
